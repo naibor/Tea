@@ -1,0 +1,85 @@
+body {text-align: center;
+    background-color: rgba(255, 247, 220, 0.712);
+    background-image: url(static/BAGS.jpg);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+a:link{color: red;text-decoration: underline;}
+a:visited{color: blue;text-decoration: none;}
+a:hover{color: rebeccapurple ;text-decoration: underline;}
+a:active{color: #bde944 ;text-decoration: none;}
+
+.container{background-color:rgba(90, 95, 94, 0.514);
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);}
+
+.container input[type=text],
+.container input[type=password],
+.container input[type=email]
+{
+    border: 2px solid
+    rgb(45, 59, 70);
+    border-radius: 10px;
+    outline: none;
+    background-color:whitesmoke;
+    width:80%;
+    height:20px;
+}
+
+.container input[type=submit]
+{
+    background-color:rgba(40, 206, 189, 0.877);
+    outline: 0px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+}
+
+
+h1{ font-family: 'Abel', sans-serif;
+    font-size: 60px;
+    margin-bottom: 10px;
+    color:black;
+}
+h4{ font-family:'cabin',Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:rgba(153, 65, 87, 0.664);
+    font-style: italic;
+}
+
+p{  font-family:'cabin',Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    line-height:20px;
+    color:black;
+}
+
+label{display: block;
+
+}
+
+/* rgba(153, 65, 87, 0.664 */
+
+/*.image{ background-image: url(#.jpg);*/
+    /* add a background  image */
+    /*background-repeat: repeat-x;*/
+    /* this repeats the image horizontally,repeat-y is for vertical */
+}
+/* id are good for one element */
+/* classes are better used for containers */
+
+#heads{ font: oleo script;
+    color: purple;
+    text-shadow:2px 2px 1px black, 0px 0px 30px whitesmoke, 0px 0px 20px blueviolet;
+    letter-spacing: 3px;
+     
+}
+
+/* h1{font-family: 'Permanent Marker', cursive; */

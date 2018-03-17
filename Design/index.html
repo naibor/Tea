@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ultimate shopper</title>
+        <meta charset = "utf-8">
+        <meta http-equiv ="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content = "width = device-width,initial-scale = 1.0">
+        <link rel = "stylesheet" href = "{{url_for('static',filename ='style.css')}}">
+        <link href = "https://fonts.googleapis.com/css?family=Abel" rel = "stylesheet">
+        <link href = "https://fonts.googleapis.com/css?family=Cabin" rel = "stylesheet">
+        <link href = "https://fonts.googleapis.com/css?family=Permanent+Marker" rel = "stylesheet">
+        
+        
+    </head>
+    <body>
+
+        <h1>SHOPPING LIST ALL THE WAY .</h1>
+    
+        <p>log in below.</p><br><br>
+
+        <form action="#" class="container"> 
+            <!-- add a link where this form goes -->
+             <input type ="text" name = "email address" placeholder = "email "> <br> <br>
+             <input type="password" name = "pwd" placeholder = "password"><br> <br>
+
+
+        </form>
+        <br><br>
+        
+        <!-- deal with how to send the user an email if they forget their password -->
+
+        
+
+
+
+             <input type = "submit" value = "submit" >
+             <h4>forgotten password?
+                <a href="#"> click here</a>
+             </h4>
+             <h4>not yet registered?
+                <a href = "{{url_for('template',filename = 'templates/signup.html')}}">join here :-*</a>
+             </h4>
+
+    </body>
+</html>
