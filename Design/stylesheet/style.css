@@ -8,7 +8,7 @@ body {text-align: center;
 a:link{color: red;text-decoration: underline;}
 a:visited{color: blue;text-decoration: none;}
 a:hover{color: rebeccapurple ;text-decoration: underline;}
-a:active{color: greenyellow ;text-decoration: none;}
+a:active{color: #bde944 ;text-decoration: none;}
 
 .container{background-color:rgba(90, 95, 94, 0.514);
     width: 300px;
