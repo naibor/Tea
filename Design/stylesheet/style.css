@@ -70,8 +70,7 @@ label{display: block;
 /*.image{ background-image: url(#.jpg);*/
     /* add a background  image */
     /*background-repeat: repeat-x;*/
-    /* this repeats the image horizontally,repeat-y is for vertical */
-}
+    /* this repeats the image horizontally,repeat-y is for vertical *}
 /* id are good for one element */
 /* classes are better used for containers */
 
